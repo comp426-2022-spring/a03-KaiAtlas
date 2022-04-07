@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/comp426-2022-spring/a03-KaiAtlas#readme",
   "dependencies": {
+    "curl": "^0.1.4",
     "express": "^4.17.3",
+    "minimist": "^1.2.6",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
     "yargs": "^17.4.0"
   }
 }
