@@ -3,7 +3,9 @@ const app = express()
 
 app.use(express.json())
 
-var port = 5000  //change this later
+const args = require("minimist")(process.argv.slice(2))
+args["port"]
+const port = args.port || 5000
 
 const server =  app.listen(port,() =>{
     console.log('App is running on port %PORT%'.replace('%PORT%', port))
