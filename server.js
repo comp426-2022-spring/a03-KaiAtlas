@@ -35,18 +35,6 @@ app.get('/app/flip/', (req, res) =>{
     res.status(200).json({'flip':coinFlip()})
 })
 
-// app.get('/app/echo/:number', (req, res) =>{
-//     res.status(200).json({'message': req.params.number})
-// })
-
-// app.get('/app/echo/', (req, res) =>{
-//     res.status(200).json({'message': req.query.number})
-// })
-
-// app.get('/app/echo/', (req, res) =>{
-//     res.status(200).json({'message': req.body.number})
-// })
-
 function FlipsNew(flips) {
     const array = [];
     for (let i = 0; i<flips; i++){
